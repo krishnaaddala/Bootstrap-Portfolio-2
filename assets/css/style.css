@@ -42,8 +42,13 @@
  }
 
  .portfolio-link{
+     opacity: 0;
      display: inline-block;
-     margin: auto;
+    
+ }
+ .portfolio-link:hover{
+    opacity: 1;
+    background-image:  ;
  }
 
 .about-me{
