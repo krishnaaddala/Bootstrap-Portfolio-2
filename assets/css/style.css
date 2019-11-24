@@ -52,11 +52,19 @@
     opacity: 1;
     color: whitesmoke;
  }
+
+#navBar-css{
+    padding: 0 0 0 0;
+}
+
  #navBar-header{
      background-color: #2f71c1;
      padding: 10px;
  }
 
+#main-container-css{
+    padding: 0 0 0 0;
+}
 #about-me{
     background-color: cornflowerblue;
     color: white;
@@ -69,46 +77,66 @@
 }
 
 #my-intro-image{
-    left: 240px;
     padding: 20px;
     font-display: white;
 }
-#skills-card {
+.skills-card {
     font-size: 20px;
     list-style: none;
   }
   #skills-card li:before {
     content: '✓';
   }
-#card-image1{
-    width: 50%;
-    height: 50%;
-    margin-top: -70px;
+.card-image{
+   
+    margin-top: -200px;
     margin-left: 25px;
+    position: relative;
+    bottom: -30px;
 }
 #card-1{
 margin-top: 100px;
 text-align: center;
 
 }
-#card-image2{
-    width: 20%;
-    height: 20%;
-    margin-top: -70px;
-    margin-left: 25px;
-}
+
 #card-2{
     margin-top: 100px;
     text-align: center;
     }
-#card-image3{
-    width: 31.5%;
-    height: 31.5%;
-  
-    margin-top: -90px;
-    margin-left: 50px;
-}
+
 #card-3{
     margin-top: 100px;
     text-align: center;
     }
+#portfolio-block{
+    margin-top: 100px;
+}
+#contact-block{
+    margin-top: 100px;
+
+}
+#footer {
+    background: #2c2d31
+  }
+  #back-to-top {
+    transform: rotate(270deg);
+    position: relative;
+    bottom: 22px;
+    background: #008cff;
+    padding: 5px 10px;
+  }
+  
+  #back-to-top:hover {
+    background: #26abae;
+  }
+  
+  .icons {
+    background: rgb(59, 57, 68);
+    padding: 15px;
+    margin-top: 35px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 65px;
+  }
+  
