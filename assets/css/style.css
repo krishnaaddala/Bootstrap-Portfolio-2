@@ -52,12 +52,19 @@
     opacity: 1;
     color: whitesmoke;
  }
+ #navBar-header{
+     background-color: #2f71c1;
+     padding: 5px;
+     font-size: large;
+ }
 
 #about-me{
     background-color: cornflowerblue;
+    color: white;
+
 }
 #my-intro-image{
-    left: 180px;
-    padding: 5px;
+    left: 240px;
+    padding: 20px;
     font-display: white;
 }
