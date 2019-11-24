@@ -1,4 +1,7 @@
 /* Landing splash page */
+#landing-page{
+    padding: 0 0 0 0;
+}
 .large-header {
     position: relative;
     width: 100%;
@@ -84,7 +87,7 @@
     font-size: 20px;
     list-style: none;
   }
-  #skills-card li:before {
+.skills-card li:before {
     content: '✓';
   }
 .card-image{
@@ -94,21 +97,13 @@
     position: relative;
     bottom: -30px;
 }
-#card-1{
-margin-top: 100px;
-text-align: center;
-
+#card-align{
+    margin-top: 100px;
+    text-align: center;
+    width:337px;
+    height:377px;
 }
 
-#card-2{
-    margin-top: 100px;
-    text-align: center;
-    }
-
-#card-3{
-    margin-top: 100px;
-    text-align: center;
-    }
 #portfolio-block{
     margin-top: 100px;
 }
