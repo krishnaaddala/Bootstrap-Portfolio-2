@@ -75,3 +75,16 @@
   #skills-card li:before {
     content: '✓';
   }
+#card-image1{
+    width: 30%;
+    height: 30%;
+    z-index: -1;
+}
+#card-image2{
+    width: 30%;
+    height: 30%;
+}
+#card-image3{
+    width: 51.25%;
+    height: 51.25%;
+}
