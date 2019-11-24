@@ -76,15 +76,34 @@
     content: '✓';
   }
 #card-image1{
-    width: 30%;
-    height: 30%;
-    z-index: -1;
+    width: 50%;
+    height: 50%;
+    margin-top: -70px;
+    margin-left: 50px;
+}
+#card-1{
+margin-top: 180px;
+text-align: center;
+
 }
 #card-image2{
-    width: 30%;
-    height: 30%;
+    width: 22.5%;
+    height: 22.5%;
+    margin-top: -70px;
+    margin-left: 50px;
 }
+#card-2{
+    margin-top: 180px;
+    text-align: center;
+    }
 #card-image3{
-    width: 51.25%;
-    height: 51.25%;
+    width: 34%;
+    height: 34%;
+  
+    margin-top: -90px;
+    margin-left: 80px;
 }
+#card-3{
+    margin-top: 180px;
+    text-align: center;
+    }
