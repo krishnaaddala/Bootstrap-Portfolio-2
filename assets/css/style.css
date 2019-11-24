@@ -42,13 +42,15 @@
  }
 
  .portfolio-link{
-     opacity: 0;
+     opacity: 0.3;
      display: inline-block;
+     /* font-display: White; */
+     color: ghostwhite;
     
  }
  .portfolio-link:hover{
     opacity: 1;
-    background-image:  ;
+    color: whitesmoke;
  }
 
 .about-me{
